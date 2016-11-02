@@ -1,0 +1,10 @@
+{
+  "name": "wine-cellar",
+  "description": "Wine Cellar Application",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "~4.8.0"
+  }
+}

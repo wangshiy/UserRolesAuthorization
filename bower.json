@@ -1,0 +1,22 @@
+{
+  "name": "wine-cellar",
+  "description": "Wine Cellar Application",
+  "main": "",
+  "authors": [
+    "Shiyu Wang <shiyuwan@cisco.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wangshiy/UserRolesAuthorization",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "angular": "~1.5.8"
+  }
+}
