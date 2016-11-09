@@ -3,9 +3,28 @@
   <head>
     <script src="static/jquery.min.js"></script>
     <script src="static/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.6/lodash.js"></script>
   </head>
   <body ng-app="myApp">
     <h1>Hello World!</h1>
+    <!– If the user has edit permission the show a link –>  
+    <div has-permission='Edit'>  
+        <a href="/#/courses/{{ id }}/edit">Edit{{ name }}</a>
+    </div>  
+    <div has-permission='Read'>  
+        Read{{ name }}
+    </div>  
+    <div has-permission='Delete'>  
+        Delete{{ name }}
+    </div>  
+    <div has-permission='!Edit'>  
+        Not Edit{{ name }}
+    </div> 
+    <div has-permission='xxx'>  
+        xxx{{ name }}
+    </div> 
     <script src="static/index.js"></script>
+    <script src="static/permissions.js"></script>
+    <script src="static/hasPermission.js"></script>
   </body>
 </html>
